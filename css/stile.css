@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header button{
+padding: 1rem;
+}
+.container{
+    display: flex;
+}
+.container div {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    width: 20%;
+    border: 1px solid green;
+    margin: 2rem;
+    border-radius: 10px;
+}
+.container button{
+font-size: 1.5rem;
+padding: 0.8rem;
+margin-bottom: 1rem;
+}
+.container button:last-child{
+    background-color: red;
+    color: white;
+    }
+    .container button:last-child:hover{
+        background-color: rgb(160, 15, 15);
+        }
+.code{
+    background-color: gainsboro;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 5px;
+}
+a{
+    color: white;
+}
+
+.p2{
+    width: 20%;
+    margin: 2rem auto;
+}
+.p2 button{
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgb(95, 95, 223);
+    color: white;
+}
+.p2 button:hover{
+    background-color: rgb(41, 41, 221) ;
+    cursor: pointer;
+}
